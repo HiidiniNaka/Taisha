@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .letter {
+            display: none;
+        }
+        #heart {
+            font-size: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="heart" onclick="revealLetter()">❤️</div>
+    <div id="letter" class="letter">
+        <p>My Dearest [Taisha Meleny],</p>
+        <p>As I write you this letter, my heart overflows with emotions that are difficult to put into words. I want you to know how much I love you and how much you mean to me.</p>
+        <p>Life without you feels incomplete. Every moment without your presence is a moment wasted. I cherish the memories we created together, and they linger in my mind like a sweet melody.</p>
+        <p>I realize my mistakes, and I want you to know that I am willing to do anything to have you in my life again. Your love is a treasure that I can't bear to lose. I miss your laughter, your warmth, and the way your presence makes everything brighter.</p>
+        <p>I understand that words alone cannot mend the past, but I am committed to proving through my actions that you are the one I want by my side. I am ready to learn, to grow, and to be the partner you deserve.</p>
+        <p>You are my everything, and the thought of a future without you is too painful to bear. Please give me the chance to make things right, to show you the depth of my love, and to build a future filled with happiness and love.</p>
+        <p>Forever Yours,</p>
+        <p>[Hiidini Yahya]</p>
+    </div>
+
+    <script>
+        function revealLetter() {
+            document.getElementById('heart').style.display = 'none';
+            document.getElementById('letter').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
